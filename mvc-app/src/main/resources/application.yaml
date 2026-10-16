@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: mvc-app
+  datasource:
+    url: jdbc:h2:mem:testdb
+    hikari:
+      maximum-pool-size: 10
+  jpa:
+    open-in-view: false
+server:
+  port: 8081
+  tomcat:
+    threads:
+      max: 50

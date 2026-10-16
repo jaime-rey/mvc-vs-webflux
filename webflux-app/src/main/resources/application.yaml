@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: webflux-app
+  r2dbc:
+    url: r2dbc:h2:mem:///testdb
+    pool:
+      initial-size: 10
+      max-size: 10
+server:
+  port: 8082
